@@ -1,9 +1,19 @@
 package edu.towson.cis.cosc442.project1.monopoly;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class Cell.
+ */
 public abstract class Cell implements IOwnable {
+	
+	/** The available. */
 	//Did pushdown
 	private boolean available = true;
+	
+	/** The name. */
 	private String name;
+	
+	/** The owner. */
 	protected Player theOwner;
 
 	/* (non-Javadoc)
@@ -52,6 +62,11 @@ public abstract class Cell implements IOwnable {
 		this.available = available;
 	}
 	
+	/**
+	 * Sets the name.
+	 *
+	 * @param name the new name
+	 */
 	void setName(String name) {
 		this.name = name;
 	}
